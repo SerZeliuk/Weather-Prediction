@@ -4,7 +4,7 @@
 This project predicts whether it will rain tomorrow based on historical weather data. Using machine learning models, the project preprocesses the data, selects features, and trains classifiers to make accurate predictions.
 
 ## Accesibility
-This project can be viewed under <ins>[**this link**]([url](https://serzeliuk.github.io/Weather-Prediction/))</ins> as well as a **Jupyter Notebook** ***WeatherPrediction.ipynb***
+This project can be viewed under [**this link**](https://serzeliuk.github.io/Weather-Prediction/) as well as a **Jupyter Notebook** ***WeatherPrediction.ipynb***
 
 ## Features
 - **Data Cleaning**: Handles missing values and transforms categorical data into numerical values.
