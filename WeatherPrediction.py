@@ -653,9 +653,9 @@ plt.show()
 # Numerical value represents each feature's importance for overall classification for each model. If the value is positive - it increases the likelihood of rain, if negative - decreases it.
 # 
 # ### For example:
-# **Pressure3pm = -0.2** - higher pressure decreases the probability of rain more significantly, than other parameters
+# **Pressure3pm - 1017.5 < Pressure <= 1021.8** - pressure in this range decreases the probability of rain more significantly, than other parameters
 # 
-# **Evaporation = 0.15** - higher evaporation increases the probability of rain more significantly, than other parameters
+# **Humidity9am - 72 < Humidity <= 81** - humidity in this relatively high range increases the probability of rain more significantly, than other parameters
 
 # %%
 for dataset_name, (X_train_scaled, X_test_scaled, y_train, y_test) in datasets.items():

@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>WeatherPrediction</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -11769,8 +11769,8 @@ Test Accuracy: 0.8648648858070374
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Value-interpretation-for-LIME">Value interpretation for LIME<a class="anchor-link" href="#Value-interpretation-for-LIME">¶</a></h2><p>Numerical value represents each feature's importance for overall classification for each model. If the value is positive - it increases the likelihood of rain, if negative - decreases it.</p>
-<h3 id="For-example:">For example:<a class="anchor-link" href="#For-example:">¶</a></h3><p><strong>Pressure3pm = -0.2</strong> - higher pressure decreases the probability of rain more significantly, than other parameters</p>
-<p><strong>Evaporation = 0.15</strong> - higher evaporation increases the probability of rain more significantly, than other parameters</p>
+<h3 id="For-example:">For example:<a class="anchor-link" href="#For-example:">¶</a></h3><p><strong>Pressure3pm - 1017.5 &lt; Pressure &lt;= 1021.8</strong> - pressure in this range decreases the probability of rain more significantly, than other parameters</p>
+<p><strong>Humidity9am - 72 &lt; Humidity &lt;= 81</strong> - humidity in this relatively high range increases the probability of rain more significantly, than other parameters</p>
 </div>
 </div>
 </div>
