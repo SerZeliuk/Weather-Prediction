@@ -41,6 +41,7 @@ pip install pandas numpy seaborn matplotlib scikit-learn tensorflow
 ![image](https://github.com/user-attachments/assets/68ac9684-9d15-421a-b562-047455f02780)
 
 Model performance is evaluated using accuracy, precision, recall, and F1-score. Comparisons are made between the models trained on the full dataset and those trained on important features.
-
+![image](https://github.com/user-attachments/assets/57db039f-af8d-4b87-a736-d83c8cdabec8)
+SHAP Explanation of the learning process
 ## License
 This project is licensed under the MIT License.
